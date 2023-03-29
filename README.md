@@ -12,5 +12,5 @@ A simple macro that will help you type text for a BMT.
 ## Installation
 
 - Install [AutoHotKey v1.1](https://www.autohotkey.com/download/)
-![](https://i.ibb.co/tzcs2WG/ahk.png)
+![ ](https://i.ibb.co/tzcs2WG/ahk.png)
 - Download script.ahk
