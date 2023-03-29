@@ -21,12 +21,16 @@ A simple macro that will help you type text for a BMT.
 
 You're done!
 
-##Controls
+## Controls
  
  **STILL UNDER DEVELOPMENT**
   
-    The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `. You will have to manually open the chat and press enter for the rest of the commands. Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI. 
+The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `. 
+You will have to manually open the chat and press enter for the rest of the commands.
+Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI.
     
 **List of hotkeys:**
-
+ Alt + 1: GREETINGS, AND WELCOME TO YOUR BASIC MILITARY TRAINING. I AM YOUR HOST, CHRISANDYU AND WILL BE REFERRED TO AS "INSTRUCTOR" DURING THIS TRAINING.
+ Alt + 2:YOU ARE EXPECTED TO LISTEN TO EVERY ORDER AND EXPECTATION THAT I GIVE YOU.
+ Alt + 3:
 
