@@ -31,7 +31,7 @@ Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI.
     
 **List of hotkeys:**
 
- # Introduction
+ ### Introduction
  
  Alt + 1: GREETINGS, AND WELCOME TO YOUR BASIC MILITARY TRAINING. I AM YOUR HOST, CHRISANDYU AND WILL BE REFERRED TO AS "INSTRUCTOR" DURING THIS TRAINING.
  
