@@ -49,5 +49,7 @@ Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI.
  
  Alt + 8: AM I UNDERSTOOD?
 
-# Drills
+### Drills
+
+I will update readme later lol
 
