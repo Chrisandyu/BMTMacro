@@ -181,11 +181,11 @@ Return
 Return
 !g::Send, When I tell you to enter the classroom, you will stand behind a seat in the front row and not sit until I give you permission to do so. 
 Return
-!f::Send, And don't even think about sitting without my approval or else you'll face my wrath.
+!f::Send, Don't even think about sitting without my approval.
 Return
 !d::Send,  We will be discussing the Codex, the essential knowledge that you must know to survive in this group. 
 Return
-!s::Send, I'll make sure that you remember it, even if I have to drill it into your skull. We'll also cover how to communicate with each other, and if any of you fail to follow my instructions, you'll regret it. 
+!s::Send, I'll make sure that you remember it, even if I have to drill it into your skull.
 Return
 !a::Send,  You will now sit in the chair in front of you, and when you've read each slide, you will bark out "Read, Instructor." with the conviction of a soldier ready for battle.
 Return
