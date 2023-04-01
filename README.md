@@ -22,8 +22,6 @@ A simple macro that will help you type text for a BMT.
 You're done!
 
 ## Controls
- 
-**STILL UNDER DEVELOPMENT**
   
 *The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `. 
 You will have to manually open the chat and press enter for the rest of the commands.
@@ -173,7 +171,7 @@ Alt + '(quote): `Congratulations. Please stay here while I rank you.`
 
 F12: `SQUAD, WEDGE ON ME!`
 
-*Note: If they do not know how to do a wedge, tell them to go to [bit.ly/bmtwedge](bit.ly/bmtwedge) or just use :bing command*
+*Note: If they do not know how to do a wedge, tell them to go to [bit.ly/bmtwedge](bit.ly/bmtwedge) or just use :bring command*
 
 F11: `SQUAD, PRESENT, ARMS!`
 
