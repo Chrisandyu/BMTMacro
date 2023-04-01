@@ -21,6 +21,11 @@ A simple macro that will help you type text for a BMT.
 
 You're done!
 
+-To terminate the script, right click the app on the bottom right(You might have to press the ^), then click exit.
+
+![ ](https://i.ibb.co/nb3jQLw/ahk-3.png)
+
+
 ## Controls
   
 *The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `. 
