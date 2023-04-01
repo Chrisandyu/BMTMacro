@@ -28,8 +28,6 @@ You will have to manually open the chat and press enter for the rest of the comm
 Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI.
 Make sure to test these out and be familliar with them before you use it in a BMT.
 You can modify the text in script.ahk if you would like(I recommend that you change CHRISANDYU to your name in Alt + 1)*
-    
-**List of hotkeys:**
 
 ### Introduction
  
