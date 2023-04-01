@@ -28,7 +28,7 @@ You're done!
 
 ## Controls
   
-*The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `. 
+*The following hotkeys will automatically open the chat for you: F1, F2, F3, F4, F5, F6, F10, F11, F12, Tab, `, Ctrl + Shift + z, Ctrl + Shift + x. 
 You will have to manually open the chat and press enter for the rest of the commands.
 Press Delete to toggle on / off hotkeys. Press \ to toggle the controls GUI.
 Make sure to test these out and be familliar with them before you use it in a BMT.
