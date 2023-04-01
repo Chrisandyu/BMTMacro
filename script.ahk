@@ -20,7 +20,7 @@ Gui, Add, Text, x412 y9 w50 h30 , Misc
 ;Description
 Gui, Font, s8
 Gui, Add, Text, x12 y40 w60 h310 , For Drills(2) and Msc, it will auto enter the chat for you. For the rest, you must press "/" to open the chat before pressing the command. Press DEL to toggle on/off all hotkeys. Press "\" (backslash) to toggle controls. 
-Gui, Add, Text, x82 y40 w50 h310 , Alt+1`n`nAlt+2`n`nAlt+3`n`nAlt+4`n`nAlt+5`n`nAlt+6`n`nAlt+7`n`nAlt+8`n`nAlt+9
+Gui, Add, Text, x82 y40 w50 h310 , Alt+1`n`nAlt+2`n`nAlt+3`n`nAlt+4`n`nAlt+5`n`nAlt+6`n`nAlt+7`n`nAlt+8
 Gui, Add, Text, x142 y40 w50 h310 , Alt+]`n`nAlt+[`n`nAlt+p`n`nAlt+o`n`nAlt+i`n`nAlt+u`n`nAlt+y`n`nAlt+t`n`nAlt+r`n`nAlt+e
 Gui, Add, Text, x202 y40 w50 h310 , F1 = LEFT-T`n`nF2 = RIGHT-T`n`nF3 = ABOUT`n`nF4 = CENTRE`n`nF5 = LEFT-I`n`nF6 = RIGHT-I
 Gui, Add, Text, x262 y40 w50 h310 , Alt+l`n`nAlt+k`n`nAlt+j`n`nAlt+h`n`nAlt+g`n`nAlt+f`n`nAlt+d`n`nAlt+d`n`nAlt+s`n`nAlt+a
@@ -28,8 +28,6 @@ Gui, Add, Text, x312 y40 w40 h310 , Alt+/`n`nAlt+.`n`nAlt+,`n`nAlt+m`n`nAlt+n`n`
 Gui, Add, Text, x362 y40 w40 h310 , Alt+c`n`nAlt+x`n`nAlt+z`n`nF12 = wdge`n`nF11 = prsnt`n`nF10 = order`n`nF9 = leave
 Gui, Add, Text, x412 y40 w40 h310 , Alt+w = LINE`n`nAlt+q = MARCH`n`nShft+w = Line`n`nShft+q = March`n`n`` = `nHalt`n`nTab = HALT
 
-;Show GUI
-Gui, Show, x1000 y200 h325 w470, BMT
 
 ;Toggle GUI
 \::
@@ -39,52 +37,47 @@ Gui, Show, x1000 y200 h325 w470, BMT
         Gui %BMT%: Show
 Return
 
-
-
-
 ;Intro: 1 - 8
-!1::Send, WELCOME RECRUITS TO YOUR BASIC MILITARY TRAINING! I AM YOUR COMMANDER, CHRISANDYU, AND YOU SHALL ADDRESS ME ONLY AS "INSTRUCTOR". FROM THIS MOMENT ON, YOU WILL OBEY MY EVERY COMMAND AND EXPECTATION WITHOUT QUESTION.
+!1::Send, GREETINGS, AND WELCOME TO YOUR BASIC MILITARY TRAINING. I AM YOUR HOST, CHRISANDYU AND WILL BE REFERRED TO AS "INSTRUCTOR" DURING THIS TRAINING.
 Return
-!2::Send, YOU SHALL KEEP YOUR MOUTHS SHUT AND YOUR EARS OPEN. ANY DEVIATION FROM THESE RULES WILL RESULT IN SWIFT AND SEVERE PUNISHMENT.
+!2::Send, YOU ARE EXPECTED TO LISTEN TO EVERY ORDER AND EXPECTATION THAT I GIVE YOU.
 Return
-!3::Send, YOUR DISCIPLINE MUST BE ABSOLUTE, AND ANY SHOW OF WEAKNESS OR DISOBEDIENCE WILL BE DEALT WITH ACCORDINGLY. YOU WILL NOT GO AFK FOR ANY REASON, AND YOU WILL NOT SHOW ANY SIGNS OF WEAKNESS OR COWARDICE.
+!3::Send, YOU SHALL NOT SPEAK UNLESS PERMITTED BY MYSELF OR ANOTHER OFFICER.
 Return
-!4::Send, YOU WILL PROVE TO ME THAT YOU ARE WORTHY OF WEARING THE UNIFORM OF THE BRITISH ARMY. YOUR ACTIONS HERE WILL DETERMINE WHETHER YOU WILL BECOME A SOLDIER OR BE SENT HOME CRYING TO YOUR MOMMY.
+!4::Send, YOU SHALL REMAIN DISCIPLINED, AND NOT GO AFK AT ALL DURING THIS TRAINING.
 Return
-!5::Send, I HAVE ZERO TOLERANCE FOR INSUBORDINATION AND INCOMPETENCE. YOU WILL BE HELD TO THE HIGHEST STANDARDS OF DISCIPLINE AND ATTENTION TO DETAIL.
+!5::Send, YOUR PROGRESSION WITHIN THE BRITISH ARMY IS DEPENDENT ON YOUR PERFORMANCE DURING THIS TRAINING.
 Return
-!6::Send, I HAVE A STRIKE SYSTEM IN PLACE. IF YOU FAIL TO MEET MY EXPECTATIONS, YOU WILL RECEIVE ONE STRIKE.
+!6::Send, TO ENSURE THE HIGHEST STANDARDS, A STRIKE SYSTEM WILL BE IN PLACE. IF YOU ACCUMULATE THREE STRIKES AT ANY POINT DURING THIS TRAINING, YOU WILL BE DISMISSED.
 Return
-!7::Send, IF YOU RECEIVE THREE STRIKES AT ANY POINT DURING THIS TRAINING, YOU WILL BE REMOVED FROM THIS BMT, AND YOU WILL NOT RETURN. I WILL NOT TOLERATE ANY EXCUSES, AND I WILL NOT ACCEPT ANY APOLOGIES.
+!7::Send, FINALLY, WHEN YOU'RE OUTSIDE A BUILDING, IT IS MANDATORY TO USE ALL CAPITAL LETTERS.
 Return
-!8::Send, YOU MUST USE FULL CAPITAL LETTERS WHEN OUTSIDE OF A BUILDING. IF YOU CANNOT FOLLOW SUCH A SIMPLE RULE, I HAVE NO USE FOR YOU.
-Return
-!9::Send, NOW, ANSWER ME, RECRUITS: ARE MY EXPECTATIONS CLEAR? AM I UNDERSTOOD?
+!8::Send, AM I UNDERSTOOD?
 Return
 
 ;Drills explanation(]-e)
-!]::Send, LISTEN UP, NEWBIES{!} I'M ABOUT TO DEMONSTRATE THE DRILLS, AND YOU BETTER PAY ATTENTION OR YOU'LL REGRET IT{!} DON'T YOU DARE MIMIC ME, OR YOU'LL END UP IN A WORLD OF PAIN{!}
+!]::Send, I SHALL NOW CONDUCT A PRESENTATION OF THE DRILLS.
 Return
-![::Send, NOW, ROOKIES, DO YOU THINK YOU HAVE WHAT IT TAKES TO MASTER THESE DRILLS? I BET YOU DON'T{!} BUT I'LL GIVE YOU A CHANCE TO PROVE ME WRONG. IF YOU FAIL, YOU'LL WISH YOU WERE NEVER BORN.
+![::Send, YOU MUST WATCH ME BUT DO NOT COPY ME.
 Return
-!p::Send, LEFT TURN - 90 DEGREE TURN TO YOUR LEFT(COUNTERCLOCKWISE){!}
+!p::Send, LEFT TURN - 90 DEGREE TURN TO YOUR LEFT(COUNTERCLOCKWISE)!
 Return
-!o::Send, RIGHT TURN - 90 DEGREE TURN TO YOUR RIGHT(CLOCKWISE){!}
+!o::Send, RIGHT TURN - 90 DEGREE TURN TO YOUR RIGHT(CLOCKWISE)!
 Return
-!i::Send, ABOUT TURN - 180 DEGREE TO FACE THE OPPOSITE SIDE FROM YOUR POSITION{!}
+!i::Send, ABOUT TURN - 180 DEGREE TO FACE THE OPPOSITE SIDE FROM YOUR POSITION!
 Return
-!u::Send, CENTRE TURN - TURN TO FACE THE DIRECTION OF THE HOST{!}
+!u::Send, CENTRE TURN - CENTRE TURN - TURN TO FACE THE DIRECTION OF THE HOST!
 Return
-!y::Send, LEFT INCLINE - 45 DEGREE TURN TO YOUR LEFT{!}
+!y::Send, LEFT INCLINE - 45 DEGREE TURN TO YOUR LEFT!
 Return
-!t::Send, RIGHT INCLINE - 45 DEGREE TURN TO YOUR RIGHT{!}
+!t::Send, RIGHT INCLINE - 45 DEGREE TURN TO YOUR RIGHT!
 Return
 !r::Send, HAS EVERYONE COMPREHENDED THE DRILLS AND HOW TO DO THEM?
 Return
-!e::Send, ALL RIGHT, IT'S TIME TO PUT YOUR TRAINING TO THE TEST! YOU BETTER DO THOSE DRILLS EXACTLY AS I TAUGHT YOU, OR I'LL MAKE SURE YOU REGRET IT FOR THE REST OF YOUR SORRY LIVES{!}
+!e::Send, YOU WILL NOW GO THROUGH THE DRILLS AS I HAVE TAUGHT THEM TO YOU.
 Return
 
-;Performing Drills(F1-F6)
+;Performing Drills
 F1:: 
 Sleep, 200
 Send, /
@@ -170,39 +163,39 @@ Sleep, 200
 Send, {Enter}
 Return
 
-;Classroom rules
-!l::Send, Listen up, I'll be going over the rules of this classroom. 
-Return
-!k::Send, First off, I don't want to see any of you using all caps or '{!}' while you're inside my classroom. 
-Return
-!j::Send,Is that clear?
-Return
-!h::Send, If you don't follow my rules, you'll regret it. 
-Return
-!g::Send, When I tell you to enter the classroom, you will stand behind a seat in the front row and not sit until I give you permission to do so. 
-Return
-!f::Send, Don't even think about sitting without my approval.
-Return
-!d::Send,  We will be discussing the Codex, the essential knowledge that you must know to survive in this group. 
-Return
-!s::Send, I'll make sure that you remember it, even if I have to drill it into your skull.
-Return
-!a::Send,  You will now sit in the chair in front of you, and when you've read each slide, you will bark out "Read, Instructor." with the conviction of a soldier ready for battle.
-Return
 
+;Classroom rules
+!l::Send, We will now commence with the rules that are to be followed inside the classroom.
+Return
+!k::Send, It is prohibited to utilize capital letters in any form while indoors.
+Return
+!j::Send, Usage of exclamation marks is deemed inappropriate.
+Return
+!h::Send, Do you understand the rules?
+Return
+!g::Send, When I tell you, you will enter the classroom stand behind a seat in the front row.
+Return
+!f::Send, Until instructed, you are not authorized to sit down.
+Return
+!d::Send, We will now go over the Codex, which contains information required for your future within the group, as well as the manner in which we communicate with one another.
+Return
+!s::Send, Please sit down.
+Return
+!a::Send, After you finish reading each slide, say, "Read, Instructor."
+Return
 
 ;Obby rules
-!/::Send, WELCOME, ROOKIES, TO THE OBSTACLE COURSE{!}
+!/::Send, WELCOME TO THE OBBY.
 Return
-!.::Send, LISTEN UP, BECAUSE I'M ONLY GOING TO SAY THIS ONCE. THE RULES ARE SIMPLE, BUT BREAKING THEM WILL HAVE DIRE CONSEQUENCES.
+!.::Send, THE RULES OF THE OBBY ARE AS FOLLOWS:
 Return
-!,::Send, FIRST OFF, CHEATING IS NOT TOLERATED IN ANY WAY, SHAPE, OR FORM. IF YOU SO MUCH AS ATTEMPT TO CHEAT, YOU'LL WISH YOU HAD NEVER SIGNED UP FOR THIS TRAINING.
+!,::Send, IT IS STRICTLY PROHIBITED TO ENGAGE IN ANY FORM OF CHEATING DURING THE COURSE OF THIS OBBY.
 Return
-!m::Send, I'LL BE WATCHING YOU CLOSELY. ANY DEVIATION FROM THE COURSE, SKIPPED PARTS, OR STARTING BEFORE TOLD TO WILL RESULT IN IMMEDIATE DISQUALIFICATION.
+!m::Send, VIOLATIONS OF THIS POLICY MAY INCLUDE SKIPPING DESIGNATED SEGMENTS OR STARTING BEFORE TOLD TO.
 Return
-!n::Send, YOU HAVE THREE MINUTES TO COMPLETE THE COURSE. THAT'S THREE MINUTES OF PURE HELL, THREE MINUTES OF PUSHING YOURSELF TO THE LIMIT. AND TRUST ME, IF YOU DON'T FINISH IN TIME, YOU'LL REGRET IT.
+!n::Send, YOUR PERMITTED TIMEFRAME TO COMPLETE THIS OBBY IS 180 SECONDS. ONCE YOU FINISH, SHOULDER TO SHOULDER ON THE RED LINE.
 Return
-!b::Send, SO WHEN I SAY "GO", YOU BETTER MOVE YOUR SORRY BEHINDS AS FAST AS YOU CAN. FAILURE IS NOT AN OPTION, AND I WILL MAKE SURE YOU UNDERSTAND THAT.
+!b::Send, YOU MAY BEGIN WHEN I SAY GO. AM I UNDERSTOOD?
 Return
 
 ;Graduation Stuff
@@ -218,7 +211,6 @@ Return
 Return
 !;::Send, I have ranked you, Please rejoin now.
 Return
-
 
 F12::
 Sleep, 400
@@ -409,6 +401,7 @@ Return
 
 Del::Suspend
 Return
+
 
 /*
 Host: 
