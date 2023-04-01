@@ -1,6 +1,6 @@
 # BMT Macro
 
-A simple macro that will help you type text for a BMT.
+A simple macro that will help you type text for a BMT. When you press hotkeys, it will paste parts of the BMT script for you so that you don't have to manually copy-paste.
 
 
 ## Authors
